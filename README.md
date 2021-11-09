@@ -1,5 +1,24 @@
 # nuxt-blog
 
+## Create options
+
+```bash
+✨  Generating Nuxt.js project in nuxt-blog
+? Project name: nuxt-blog
+? Programming language: TypeScript
+? Package manager: Yarn
+? UI framework: Ant Design Vue
+? Nuxt.js modules: Axios - Promise based HTTP client, Content - Git-based headless CMS
+? Linting tools: ESLint, Prettier, Lint staged files, StyleLint, Commitlint
+? Testing framework: Jest
+? Rendering mode: Universal (SSR / SSG)
+? Deployment target: Server (Node.js hosting)
+? Development tools: (Press <space> to select, <a> to toggle all, <i> to invert selection)
+? Continuous integration: GitHub Actions (GitHub only)
+? What is your GitHub username? changsik
+? Version control system: Git
+```
+
 ## Build Setup
 
 ```bash
@@ -40,7 +59,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
