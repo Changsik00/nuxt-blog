@@ -6,6 +6,7 @@
     <p>Article last updated: {{ formatDate(article.updatedAt) }}</p> -->
     <pre> {{ article }} </pre>
     <nuxt-content :document="article" />
+    <author :author="article.author" />
   </article>
 </template>
 
@@ -36,5 +37,13 @@ export default {
 }
 .nuxt-content p {
   margin-bottom: 20px;
+}
+
+.icon.icon-link {
+  background-image: url('~assets/svg/icon-hashtag.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
 }
 </style>
