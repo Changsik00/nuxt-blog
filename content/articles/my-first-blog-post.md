@@ -46,3 +46,9 @@ Welcome to my first blog post using content module
 This is a vue component inside markdown using slots
 </template>
 </info-box>
+
+```javascript
+export default {
+  nuxt: 'is the best',
+}
+```
