@@ -3,6 +3,8 @@ title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
 img: first-blog-post.jpg
 alt: my first blog post
+slug: my-first-blog-post
+updatedAt: 2021.11.10 PM 7:10
 author:
   name: Dennis
   bio: All about Dennis

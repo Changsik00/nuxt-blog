@@ -1,8 +1,9 @@
 ---
 title: Dummy Post
 description: Learning how to use @nuxt/content to create a blog2
-
 alt: this is test post
+slug: dummy
+updatedAt: 2021.11.10 PM 7:10
 author:
   name: Dennis2
   bio: All about Dennis2

@@ -44,6 +44,7 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
+    nestedProperties: ['author.name'],
     markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css',
