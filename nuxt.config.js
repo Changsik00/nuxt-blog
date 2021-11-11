@@ -37,6 +37,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://redfern.dev/articles/adding-a-sitemap-using-nuxt-content/
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -54,4 +56,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  sitemap: {
+    hostname: 'http://localhost:3000',
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const articles = await $content('articles').only(['path']).fetch()
+      return articles.map((p) => p.path.replace('articles', 'blog'))
+    },
+  },
 }

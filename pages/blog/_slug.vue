@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import getSiteMeta from './utils/getSiteMeta'
+import getSiteMeta from '../../utils/getSiteMeta'
 
 export default {
   async asyncData({ $content, params, error }) {
